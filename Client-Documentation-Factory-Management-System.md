@@ -1,102 +1,171 @@
-# Factory Management System  
-## Client Documentation — Furniture Factory
+# Factory Management System
 
-**Document purpose:** A short, business-friendly overview of what the system does, how your team uses it, and how it improves control of orders, cash, and profit.
-
----
-
-## 1. Project Overview
-
-The **Factory Management System** is one place to run the factory from **order to cash**: custom-friendly **orders**, **partial deliveries**, **installment payments** (with **receivable**—what customers still owe—and **payable**—what you owe suppliers, as you use the system), **expenses**, and **reports** on income, costs, and profit.
-
-It fits how furniture businesses work: **custom or catalog products**, **staged shipments**, and **flexible payment terms**—with less reliance on notebooks and scattered notes.
+**Client documentation** · Furniture factory operations
 
 ---
 
-## 2. Key Features
+| | |
+|:---|:---|
+| **Audience** | Business owners and factory leadership |
+| **Format** | Web application (browser-based) |
+| **Focus** | Orders, deliveries, payments, expenses, and financial insight—without technical jargon |
+
+---
+
+## 1. Project overview
+
+The **Factory Management System** is a **web-based** workspace that helps a furniture factory run day-to-day work from **order** through **delivery** and **payment**, while capturing **costs** and showing **financial results** in one place.
+
+Because furniture is often **custom-made**, the system is built so staff can **define products at the moment of ordering** when something new does not yet exist in a catalog—then track that order through production, partial shipments, and installment payments like a normal job.
+
+**Why it matters:** less dependence on scattered notebooks and informal lists, clearer answers on **what was promised**, **what went out**, **what was paid**, and **what the month looked like** financially.
+
+---
+
+## 2. Core objectives
+
+| Objective | What the system aims to deliver |
+|:----------|:--------------------------------|
+| **Order tracking** | One reliable record per customer job: products, quantities, prices, and delivery expectations. |
+| **Financial transparency** | Income, expenses, and profit-style summaries with simple time filters—not hidden in ad-hoc spreadsheets. |
+| **Operational clarity** | Partial deliveries and partial payments visible on the order, so the team and management share the same picture. |
+| **Less manual work** | Fewer duplicate entries and manual totals; numbers follow the activities your staff already perform. |
+| **Controlled access** | Different roles see and change only what fits their responsibility. |
+
+---
+
+## 3. Key features
 
 ### Product creation during order
 
-Staff can **add a new product** (description, specs, price as you define) or **choose an existing one** while building the order—so custom jobs stay clear without a bloated catalog.
+When building an order, users can **create a new product on the spot** (description, specifications, and pricing as your factory defines them) or **select an existing product**. This matches real furniture work where many items are one-off or custom.
 
 ### Order management
 
-Each order holds **customer**, **line items** (product, quantity, price), and **delivery timing**. That record is the hub for production, delivery, and money activity.
+Orders include **customer details**, **line items** (products, quantities, prices), and **delivery-related timing** as you use it in your process. The order is the **central hub** for production reference, deliveries, and payments.
 
-### Partial delivery system
+### Partial delivery tracking
 
-Example: **10 doors**—send **3** first, **7** later. The system shows **delivered** and **remaining** per line so everyone knows what left the factory and what is pending.
+Large jobs often ship in more than one batch. **Example:** a customer orders **10 doors**; the factory delivers **3** first and the **remaining 7** later.
 
-### Partial payment tracking & payables
+The system records **how much has been delivered** and **how much is still to deliver** per line, so status stays accurate without guesswork.
 
-**Customer side:** Record payments in stages; see **total paid** and **amount still due (receivable)** on the order.  
-**Supplier side:** Track **payable** amounts (what the factory owes vendors/suppliers) per your process, so cash planning covers money **in** and **out**.
+### Partial payment tracking (installments)
 
-### Expense and cost tracking
+Customers frequently pay in **stages** (e.g. deposit, progress, balance). Each payment is recorded against the order. The system shows **total received** and **balance due** so collection and follow-up stay clear.
 
-Managers (or assigned roles) log **daily factory expenses** and **production-related costs** (e.g. materials, outsourced work)—not only sales income.
+### Expense and costing management
 
-### Financial reports
+Authorized users record **daily factory expenses** and **production-related costs** (such as materials or outsourced work, depending on what you choose to track). This supports understanding **where money goes**, not only what comes in from sales.
 
-Summaries of **income**, **expenses**, and **profit**, filterable by **Today**, **Yesterday**, **This week**, **This month**, **This year**, or a **custom date range**.
+### Financial dashboard with filters
+
+Dashboards and reports summarize performance using filters such as:
+
+| Filter | Use case |
+|:-------|:---------|
+| **Today** / **Yesterday** | Quick pulse checks |
+| **Week** / **Month** / **Year** | Routine management reviews |
+| **Custom** | Any date range you choose (e.g. a project window or audit period) |
+
+Typical views include **income**, **expenses**, and **profit-oriented** summaries as designed for your rollout.
 
 ### Role-based access control
 
-**Admin**, **Manager**, and **Staff** get **different permissions**—staff handle day-to-day tasks you allow; managers oversee operations and costs; admins cover users, settings, and full reporting as agreed.
+| Role | Typical focus |
+|:-----|:----------------|
+| **Admin** | Users, configuration, and full reporting (as agreed) |
+| **Manager** | Oversight of orders, costs, and financial views |
+| **Staff** | Day-to-day order, delivery, and payment entry within assigned limits |
 
-### Printable documents
+Permissions are **tailored to responsibility** so sensitive actions stay with the right people.
 
-Print **invoices**, **payment receipts**, and **reports** when you need hard copies for customers or files.
+### Printable invoices, receipts, and reports
 
-### Historical data (optional rollout)
+The system supports **printing** (or PDF-friendly output, depending on your setup) for:
 
-Roughly **the last 5–6 years** of **notebook** records can be entered with a **data entry specialist** in a planned phase, so the system reflects your real history—not only new entries.
+- **Invoices**
+- **Payment receipts**
+- **Selected reports**
 
----
-
-## 3. User Journey
-
-1. **Sign in** in the web browser.  
-2. **Customer** — create new or select existing.  
-3. **Order and products** — create order; per line, create or select product; set quantity, price, delivery timing.  
-4. **Production** — factory works to the order; the order stays the reference.  
-5. **Partial deliveries** — record each shipment; delivered vs remaining stays accurate.  
-6. **Partial payments** — record receipts; paid and due (receivable) update.  
-7. **Payables** — record supplier obligations as you define.  
-8. **Expenses** — manager (or assigned role) logs daily and production costs.  
-9. **Reports** — admin/manager reviews dashboards and financial reports (day/week/month/year/custom).  
-10. **Printing** — invoices, receipts, reports when needed.
-
-The same person may do several steps, or roles may be split—however your factory is organized.
+This supports customers, accountants, and internal filing without retyping documents.
 
 ---
 
-## 4. Benefits for the Factory
+## 4. Historical data entry
 
-| Benefit | What it means for you |
-|--------|------------------------|
-| **Better order tracking** | One record links products, deliveries, and payments—quick answers on status and what’s left. |
-| **Clear cash picture** | Receivable (from customers) and payable (to suppliers) support fewer surprises and clearer follow-up. |
-| **Expense control** | Spending is logged so you can compare costs to revenue over time. |
-| **Profit visibility** | Filtered reports without rebuilding spreadsheets every month. |
-| **Less manual work** | The system carries quantities and amounts forward as you record real activity. |
+To avoid starting from zero, the project can include a phase for **bringing past records into the system**.
 
----
+- A dedicated **Data Entry Operator** role (or equivalent specialist) is responsible for entering approximately the **previous 5 years** of **historical factory data**.
+- Typical content includes **past orders**, **payments**, and **expenses** (and related details as defined in your data plan).
 
-## 5. System Type
-
-**Web application:** your team uses it in a **browser**—typically **no install per PC**. Works on **desktop, laptop, and mobile browsers** when you need access away from the desk.
-
-Hosting, security, and backup follow your agreement with your IT or vendor; this document describes **business value**, not technical setup.
+This phase is planned and supervised so **opening positions and history** align with your real books and notebooks as far as the agreed scope allows.
 
 ---
 
-## Closing note
+## 5. User journey
 
-This describes **concept and workflow**. Final screens, labels, and report layouts follow agreed design and your factory’s words.
+End-to-end workflow your team can follow:
 
-For **scope**, **timelines**, **training**, or **historical data migration**, use your **project proposal** or your **implementation partner**.
+| Step | Stage | Short description |
+|:---:|:---|:---|
+| 1 | **Login** | User signs in through the web application. |
+| 2 | **Create / select customer** | New customer captured or existing customer chosen for the job. |
+| 3 | **Create order** | Line items added; **new products created during order** when needed, or existing products selected; prices and delivery expectations set. |
+| 4 | **Production** | Factory produces against the order; the order remains the reference for what was promised. |
+| 5 | **Partial delivery** | Each shipment recorded; **delivered vs remaining** quantities stay up to date. |
+| 6 | **Payment collection** | Installments recorded; **paid vs due** visible on the order. |
+| 7 | **Expense entry** | Approved users log factory and production-related expenses. |
+| 8 | **Dashboard reports** | Leadership reviews summaries using **Today / Yesterday / Week / Month / Year / Custom** filters. |
+| 9 | **Print documents** | Invoices, receipts, or reports printed or exported as needed. |
+
+*Note:* One person may cover several steps, or duties may be split by role—depending on how your factory organizes work.
 
 ---
 
-*Client overview — suitable for presentation and internal alignment.*
+## 6. System type
+
+The Factory Management System is delivered as a **web application**.
+
+- **Access:** Through a standard **web browser**—no heavy installation on each computer for typical daily use.
+- **Devices:** Usable from **desktop and laptop** browsers, and **mobile browsers** when you need to view or enter information away from the office (subject to screen size and your internal policies).
+
+Details such as hosting, backups, and security are agreed with your technology partner; this document describes **business capabilities**, not infrastructure.
+
+---
+
+## 7. Benefits for the factory
+
+| Area | Benefit |
+|:-----|:--------|
+| **Efficiency** | Fewer parallel lists and manual reconciliations; one system carries the story of each order. |
+| **Financial visibility** | Dashboard filters make **income**, **spend**, and **margin-style insight** easier to see for the periods you care about. |
+| **Operations** | **Partial deliveries** and **installment payments** are visible in context—less confusion between shop floor, sales, and accounts. |
+| **Professionalism** | Consistent **invoices and receipts** support clearer communication with customers and advisers. |
+| **Governance** | **Role-based access** reduces accidental changes and supports accountability. |
+
+---
+
+## 8. Future scalability
+
+The first version focuses on **orders, products (including creation during order), deliveries, payments, expenses, and reporting**.
+
+The same platform can **grow over time** with additional modules, for example:
+
+- **Inventory management** (stock levels, materials)
+- **Supplier management** (vendor records, purchase patterns)
+- **Production tracking** (deeper shop-floor or job-stage visibility)
+
+Roadmap and timing for these extensions are decided with you as priorities and budget allow.
+
+---
+
+## Document note
+
+This overview describes **intent, workflow, and client-visible capabilities**. Final screen layouts, field names, and exact report definitions follow **agreed product design** and your factory’s terminology.
+
+For **scope, schedule, training, and historical data scope**, refer to your **project proposal** or **implementation contact**.
+
+---
+
+*Factory Management System — client documentation (Markdown; PDF-ready).*
