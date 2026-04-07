@@ -158,14 +158,4 @@ The same platform can **grow over time** with additional modules, for example:
 
 Roadmap and timing for these extensions are decided with you as priorities and budget allow.
 
----
 
-## Document note
-
-This overview describes **intent, workflow, and client-visible capabilities**. Final screen layouts, field names, and exact report definitions follow **agreed product design** and your factory’s terminology.
-
-For **scope, schedule, training, and historical data scope**, refer to your **project proposal** or **implementation contact**.
-
----
-
-*Factory Management System — client documentation (Markdown; PDF-ready).*
