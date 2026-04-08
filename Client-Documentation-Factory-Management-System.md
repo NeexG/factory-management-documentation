@@ -27,6 +27,8 @@ Because furniture is often **custom-made**, the system is built so staff can **d
 | Objective | What the system aims to deliver |
 |:----------|:--------------------------------|
 | **Order tracking** | One reliable record per customer job: products, quantities, prices, and delivery expectations. |
+| **Inventory management** | Clear visibility of stock levels and materials to ensure smooth production without shortages. |
+| **Supplier management** | Organized vendor records and tracking of purchase patterns to optimize procurement and maintain strong supplier relationships. |
 | **Financial transparency** | Income, expenses, and profit-style summaries with simple time filters—not hidden in ad-hoc spreadsheets. |
 | **Operational clarity** | Partial deliveries and partial payments visible on the order, so the team and management share the same picture. |
 | **Less manual work** | Fewer duplicate entries and manual totals; numbers follow the activities your staff already perform. |
@@ -110,14 +112,16 @@ End-to-end workflow your team can follow:
 | Step | Stage | Short description |
 |:---:|:---|:---|
 | 1 | **Login** | User signs in through the web application. |
-| 2 | **Create / select customer** | New customer captured or existing customer chosen for the job. |
-| 3 | **Create order** | Line items added; **new products created during order** when needed, or existing products selected; prices and delivery expectations set. |
-| 4 | **Production** | Factory produces against the order; the order remains the reference for what was promised. |
-| 5 | **Partial delivery** | Each shipment recorded; **delivered vs remaining** quantities stay up to date. |
-| 6 | **Payment collection** | Installments recorded; **paid vs due** visible on the order. |
-| 7 | **Expense entry** | Approved users log factory and production-related expenses. |
-| 8 | **Dashboard reports** | Leadership reviews summaries using **Today / Yesterday / Week / Month / Year / Custom** filters. |
-| 9 | **Print documents** | Invoices, receipts, or reports printed or exported as needed. |
+| 2 | **Supplier management** | Add or select vendors for raw materials, and track purchase patterns over time. |
+| 3 | **Inventory tracking** | Review current stock levels for materials and update quantities upon receiving new shipments from suppliers. |
+| 4 | **Create / select customer** | New customer captured or existing customer chosen for the job. |
+| 5 | **Create order** | Line items added; **new products created during order** when needed, or existing products selected; prices and delivery expectations set. |
+| 6 | **Production** | Factory produces against the order; the order remains the reference for what was promised, and material stock is consumed. |
+| 7 | **Partial delivery** | Each shipment recorded; **delivered vs remaining** quantities stay up to date. |
+| 8 | **Payment collection** | Installments recorded; **paid vs due** visible on the order. |
+| 9 | **Expense entry** | Approved users log factory and production-related expenses, including stock purchases from vendors. |
+| 10 | **Dashboard reports** | Leadership reviews summaries (including inventory and supplier expenses) using filters. |
+| 11 | **Print documents** | Invoices, receipts, or reports printed or exported as needed. |
 
 *Note:* One person may cover several steps, or duties may be split by role—depending on how your factory organizes work.
 
@@ -148,12 +152,10 @@ Details such as hosting, backups, and security are agreed with your technology p
 
 ## 8. Future scalability
 
-The first version focuses on **orders, products (including creation during order), deliveries, payments, expenses, and reporting**.
+The first version focuses on **orders, products (including creation during order), deliveries, payments, expenses, reporting, inventory management (stock levels, materials), and supplier management (vendor records, purchase patterns)**.
 
 The same platform can **grow over time** with additional modules, for example:
 
-- **Inventory management** (stock levels, materials)
-- **Supplier management** (vendor records, purchase patterns)
 - **Production tracking** (deeper shop-floor or job-stage visibility)
 
 Roadmap and timing for these extensions are decided with you as priorities and budget allow.
